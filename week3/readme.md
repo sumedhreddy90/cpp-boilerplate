@@ -19,15 +19,21 @@ Please find the wrting assignment .pdf and output screenshots in the root folder
 
 ## Sample Outputs
 
-3_5_output
+**3_5_output:**
+<img width="1440" alt="3_5_output" src="https://user-images.githubusercontent.com/24978535/134241123-d9610cf4-2ae0-4322-820f-425c45c30bf8.png">
 
-3_10_output
+**3_10_output**
+<img width="1440" alt="3_10_output" src="https://user-images.githubusercontent.com/24978535/134241137-175cd18d-fc65-4356-8da8-1db0e48745f6.png">
 
-4_5_output
+**4_5_output**
+<img width="1440" alt="4_5_output" src="https://user-images.githubusercontent.com/24978535/134241148-fc224652-9a5d-4677-ba38-72c8c49edf82.png">
 
-4_7_output
+**4_7_output**
+<img width="1440" alt="4_7_output" src="https://user-images.githubusercontent.com/24978535/134241159-7d6bbba5-0372-4a08-9d61-3b99a946ac17.png">
 
-6_9_output
+**6_9_output**
+<img width="1440" alt="6_9_output" src="https://user-images.githubusercontent.com/24978535/134241172-0b6f06dd-5258-424f-a2dc-46b1d90b581b.png">
+
 
 ## Plugins
 
