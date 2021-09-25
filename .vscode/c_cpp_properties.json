@@ -10,7 +10,8 @@
                 "${workspaceFolder}/week3/SoftwareEngineering3-10/include",
                 "${workspaceFolder}/week3/AcceleratedC++6-9/include",
                 "${workspaceFolder}/week3/AcceleratedC++4-7/include",
-                "${workspaceFolder}/week3/AcceleratedC++4-5/include"
+                "${workspaceFolder}/week3/AcceleratedC++4-5/include",
+                "${workspaceFolder}/softwareEng_9_4/include"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
