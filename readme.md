@@ -7,7 +7,7 @@
 Name: Sumedh Reddy Koppula
 UID: 117386066
 
-In week4 directory please find invidual folder with programming assignment exercise names with UML diagram. On each folder please perform below executions in command-line to get the ouput.
+In week4 directory please find individual folder with programming assignment exercise names with UML diagram. On each folder please perform below executions in command-line to get the ouput.
 1. mkdir build
 2. cd build
 3. cmake ..
@@ -26,7 +26,7 @@ Please find the written_SoftwareEngineering.pdf assignment and output screenshot
 Name: Sumedh Reddy Koppula
 UID: 117386066
 
-In week3 directory please find invidual folders with programming assignment exercise names with UML diagram. On each folder please perform below executions in command-line to get the ouput.
+In week3 directory please find individual folders with programming assignment exercise names with UML diagram. On each folder please perform below executions in command-line to get the ouput.
 1. mkdir build
 2. cd build
 3. cmake ..
