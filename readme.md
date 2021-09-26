@@ -2,98 +2,55 @@
 [![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
 ---
+## Week 4 Assignment
 
-## Overview
+Name: Sumedh Reddy Koppula
+UID: 117386066
 
-Simple starter C++ project with:
+In week4 directory please find invidual folder with programming assignment exercise names with UML diagram. On each folder please perform below executions in command-line to get the ouput.
+1. mkdir build
+2. cd build
+3. cmake ..
+4. make
+5. cd app
+6. ./shell-app
 
-- cmake
-- googletest
+Please find the wrting assignment .pdf and output screenshots in the root folder.
 
-## Standard install via command-line
-```
-git clone --recursive https://github.com/dpiet/cpp-boilerplate
-cd <path to repository>
-mkdir build
-cd build
-cmake ..
-make
-Run tests: ./test/cpp-test
-Run program: ./app/shell-app
-```
-
-## Building for code coverage (for assignments beginning in Week 4)
-```
-sudo apt-get install lcov
-cmake -D COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug ../
-make
-make code_coverage
-```
-This generates a index.html page in the build/coverage sub-directory that can be viewed locally in a web browser.
-
-## Working with Eclipse IDE ##
-
-## Installation
-
-In your Eclipse workspace directory (or create a new one), checkout the repo (and submodules)
-```
-mkdir -p ~/workspace
-cd ~/workspace
-git clone --recursive https://github.com/dpiet/cpp-boilerplate
-```
-
-In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of cpp-boilerplate
-
-```
-cd ~/workspace
-mkdir -p boilerplate-eclipse
-cd boilerplate-eclipse
-cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../cpp-boilerplate/
-```
-
-## Import
-
-Open Eclipse, go to File -> Import -> General -> Existing Projects into Workspace -> 
-Select "boilerplate-eclipse" directory created previously as root directory -> Finish
-
-# Edit
-
-Source files may be edited under the "[Source Directory]" label in the Project Explorer.
+## Sample Outputs for week4
 
 
-## Build
+## Week 3 Assignment
 
-To build the project, in Eclipse, unfold boilerplate-eclipse project in Project Explorer,
-unfold Build Targets, double click on "all" to build all projects.
+Name: Sumedh Reddy Koppula
+UID: 117386066
 
-## Run
+In week3 directory please find invidual folders with programming assignment exercise names with UML diagram. On each folder please perform below executions in command-line to get the ouput.
+1. mkdir build
+2. cd build
+3. cmake ..
+4. make
+5. cd app
+6. ./shell-app
 
-1. In Eclipse, right click on the boilerplate-eclipse in Project Explorer,
-select Run As -> Local C/C++ Application
+Please find the wrting assignment .pdf and output screenshots in the root folder.
 
-2. Choose the binaries to run (e.g. shell-app, cpp-test for unit testing)
+## Sample Outputs for week3
 
+**3_5_output:**
+<img width="1440" alt="3_5_output" src="https://user-images.githubusercontent.com/24978535/134241123-d9610cf4-2ae0-4322-820f-425c45c30bf8.png">
 
-## Debug
+**3_10_output**
+<img width="1440" alt="3_10_output" src="https://user-images.githubusercontent.com/24978535/134241137-175cd18d-fc65-4356-8da8-1db0e48745f6.png">
 
+**4_5_output**
+<img width="1440" alt="4_5_output" src="https://user-images.githubusercontent.com/24978535/134241148-fc224652-9a5d-4677-ba38-72c8c49edf82.png">
 
-1. Set breakpoint in source file (i.e. double click in the left margin on the line you want 
-the program to break).
+**4_7_output**
+<img width="1440" alt="4_7_output" src="https://user-images.githubusercontent.com/24978535/134241159-7d6bbba5-0372-4a08-9d61-3b99a946ac17.png">
 
-2. In Eclipse, right click on the boilerplate-eclipse in Project Explorer, select Debug As -> 
-Local C/C++ Application, choose the binaries to run (e.g. shell-app).
-
-3. If prompt to "Confirm Perspective Switch", select yes.
-
-4. Program will break at the breakpoint you set.
-
-5. Press Step Into (F5), Step Over (F6), Step Return (F7) to step/debug your program.
-
-6. Right click on the variable in editor to add watch expression to watch the variable in 
-debugger window.
-
-7. Press Terminate icon to terminate debugging and press C/C++ icon to switch back to C/C++ 
-perspetive view (or Windows->Perspective->Open Perspective->C/C++).
+**6_9_output**
+<img width="1440" alt="6_9_output" src="https://user-images.githubusercontent.com/24978535/134241172-0b6f06dd-5258-424f-a2dc-46b1d90b581b.png">
 
 
 ## Plugins
