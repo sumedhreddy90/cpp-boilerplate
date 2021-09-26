@@ -15,9 +15,11 @@ In week4 directory please find invidual folder with programming assignment exerc
 5. cd app
 6. ./shell-app
 
-Please find the wrting assignment .pdf and output screenshots in the root folder.
+Please find the written_SoftwareEngineering.pdf assignment and output screenshots in the week4 root folder.
 
 ## Sample Outputs for week4
+
+![week4](https://user-images.githubusercontent.com/24978535/134793190-87df4081-0227-41d6-b385-bf45234f1c9a.png)
 
 
 ## Plugins
