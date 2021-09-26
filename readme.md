@@ -19,6 +19,7 @@ Please find the wrting assignment .pdf and output screenshots in the root folder
 
 ## Sample Outputs for week4
 
+![week4](https://user-images.githubusercontent.com/24978535/134793190-87df4081-0227-41d6-b385-bf45234f1c9a.png)
 
 ## Week 3 Assignment
 
