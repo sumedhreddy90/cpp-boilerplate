@@ -27,7 +27,8 @@
 class printer {
  public:
     int input();
-    void printPosition(int t_length, int a_length_search, char* text,char* array_to_search1, int position);
+    void printPosition(int t_length, int a_length_search, char* text,
+    char* array_to_search1, int position);
     printer();
 };
 

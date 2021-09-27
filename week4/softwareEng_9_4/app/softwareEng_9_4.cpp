@@ -13,7 +13,8 @@
  * printPostion method enable code resuablity and extraction mechanism 
  * this extracted method is used to find and print position
  */
-void printer::printPosition(int text_length, int array_to_search1_length, char* text, char* array_to_search1, int position1) {
+void printer::printPosition(int text_length, int array_to_search1_length,
+char* text, char* array_to_search1, int position1) {
 int i, j;
 for (i = 0; i < text_length - array_to_search1_length + 1; i++) {
   bool found = true;
@@ -45,7 +46,8 @@ int printer::input() {
     std::cout<< "Enter the length of search element: ";
     std::cin>> array_to_search1_length;
     int position1 = -1;
-    printPosition(text_length, array_to_search1_length, text, array_to_search1, position1);
+    printPosition(text_length, array_to_search1_length,
+    text, array_to_search1, position1);
     return position1;
 }
 
