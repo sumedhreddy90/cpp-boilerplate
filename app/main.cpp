@@ -4,5 +4,6 @@
 int main()
 {
     dummy();
+    std::cout<< "Sumedh test";
     return 0;
 }
