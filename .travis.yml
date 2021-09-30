@@ -21,10 +21,10 @@ matrix:
       env: COMPILER=g++-5
 
 before_install:
-  - pip install cpp-coveralls --user
-install:
   - sudo apt-get update
   - sudo apt-get install python3
+  - pip install cpp-coveralls --user
+install:
   - sudo apt-get install -y -qq lcov
 script:
   - export CXX=$COMPILER;
