@@ -1,6 +1,6 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
+[![Build Status](https://app.travis-ci.com/sumedhreddy90/cpp-boilerplate.svg?branch=Group8-PairA)](https://app.travis-ci.com/sumedhreddy90/cpp-boilerplate.svg?branch=Group8-PairA)
+[![Coverage Status](https://coveralls.io/repos/github/sumedhreddy90/cpp-boilerplate/badge.svg?branch=Group8-PairA)](https://coveralls.io/github/sumedhreddy90/cpp-boilerplate?branch=Group8-PairA)
 ---
 ## Authors
 ```
