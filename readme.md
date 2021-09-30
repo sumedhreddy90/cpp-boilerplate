@@ -12,6 +12,9 @@ https://github.com/sumedhreddy90
 Pratik bhujbal (Navigator)
 Github URL: https://github.com/Prat33k-dev
 
+Pair B:
+
+
 ## Overview
 
 Simple starter C++ project with:
