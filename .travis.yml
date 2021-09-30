@@ -28,12 +28,14 @@ script:
   - export CXX=$COMPILER;
   - mkdir build
   - cd build
+  - ./configure --enable-gcov && make && make check
   - cmake -DCOVERAGE=ON -DCMAKE_BUILD_TYPE=Debug ../
   - make
   - make code_coverage
   - test/cpp-test
 
 after_success:
+  - coveralls --exclude lib --exclude tests --gcov-options '\-lp'
   - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*"
 
 notifications:
