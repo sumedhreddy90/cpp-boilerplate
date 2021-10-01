@@ -9,11 +9,13 @@ At ACME Robotics mobile robots are available in a wide variety of configurations
 ## Overview
 A PID controller is a control loop feedback mechanism that calculates the difference between a desired setpoint and the actual output from a process, and uses the result to apply a correction to the process. PID stands for Proportional, Integral, Derivative.
 
-https://www.google.com/url?sa=i&url=http%3A%2F%2Fmjwhite8119.github.io%2FRobots%2Fpid-control&psig=AOvVaw0266X2pC34lF3S_IvicOmb&ust=1633188910213000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDAvvjEqfMCFQAAAAAdAAAAABAI
+![image](https://user-images.githubusercontent.com/24978535/135656765-ca36cfe9-07fd-474a-9798-93efe46e4845.png)
 
 ## Our Implementation Details
 
 ## UML Diagram
+
+<img width="369" alt="image" src="https://user-images.githubusercontent.com/24978535/135656814-80bb1847-9c6f-437f-976c-d4d8864f8ac1.png">
 
 
 ## Compiling and Running
