@@ -10,7 +10,7 @@
 #include <PID.hpp>
 double PIDController::compute(double currentValue, double setPoint) {
   // write your compute code here
-  return 0;
+  return 23;
 }
 /**
  * Updates new values to member variables of the class
