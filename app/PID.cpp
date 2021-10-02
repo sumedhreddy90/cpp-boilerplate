@@ -8,33 +8,30 @@
  */
 
 #include <PID.hpp>
-
-double PIDController::compute(double targetSetpoint, double actualVelocity)
-{
-    // write your compute code here
-    return 0;
+double PIDController::compute(double curentValue, double setPoint) {
+  // write your compute code here
+  return 0;
 }
 /**
  * Updates new values to member variables of the class
  */
-void PIDController::updateParameters(double kp, double ki, double kd)
-{
-    this->Kp = kp;
-    this->Ki = ki;
-    this->Kd = kd;
+void PIDController::updateParameters(double kp, double ki, double kd) {
+  this->Kp = kp;
+  this->Ki = ki;
+  this->Kd = kd;
 }
 /// Return value of Kp member variable
-double PIDController::getValueKp()
-{
-    return this->Kp;
+double PIDController::getValueKp() {
+  return Kp;
 }
 /// Return value of Ki member variable
-double PIDController::getValueKi()
-{
-    return this->Ki;
+double PIDController::getValueKi() {
+  return Ki;
 }
 /// Return value of Kd member variable
-double PIDController::getValueKd()
-{
-    return this->Kd;
+double PIDController::getValueKd() {
+  return Kd;
+}
+double PIDController::getValueDt() {
+  return Dt;
 }

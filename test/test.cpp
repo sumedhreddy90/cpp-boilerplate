@@ -1,60 +1,26 @@
+//! "Copyright [2019] Pratik Bhujbal, Sumedh Koppula"
+/**
+* @file test.cpp
+* @author JSumedh Koppula, Pratik Bhujbal
+* @brief This is a the test class for the PID implementation project
+*/
 #include <gtest/gtest.h>
 #include <PID.hpp>
 
 /**
 * @brief Test for kp, ki, kd gain update
 */
-TEST(PIDTest, gainUpdate)
-{
-    PIDController testPID(7, 9, 3);
-    testPID.updateParameters(7, 9, 5);
-
-    EXPECT_EQ(7, testPID.getValueKp());
-    EXPECT_EQ(9, testPID.getValueKi());
-    EXPECT_EQ(5, testPID.getValueKd());
+TEST(PIDTest, gainUpdate) {
+    PIDController testPID(1, 1, 1, 1, 20, -20);
+    testPID.updateParameters(1, 1, 1);
+    EXPECT_EQ(1, testPID.getValueKp());
+    EXPECT_EQ(1, testPID.getValueKi());
+    EXPECT_EQ(1, testPID.getValueKd());
 }
-
-/**
-* @brief Test for kp, ki, kd gain update
-*/
-TEST(PIDTest1, gainUpdate1)
-{
-    PIDController testPID(7, 9, 3);
-    testPID.updateParameters(0, 0, 0);
-
-    EXPECT_EQ(0, testPID.getValueKp());
-    EXPECT_EQ(0, testPID.getValueKi());
-    EXPECT_EQ(0, testPID.getValueKd());
-}
-
 /**
 * @brief Test for compute function
 */
-TEST(PIDTest2, computeFunction1)
-{
-    PIDController testPID(7, 9, 3);
-    double output = testPID.compute(90, 30);
-    EXPECT_EQ(0, output);
-}
-
-/**
-* @brief Test for compute function
-*/
-TEST(PIDTest3, computeFunction2)
-{
-    PIDController testPID(7, 9, 3);
-    testPID.updateParameters(0, 1, 2);
-    double output = testPID.compute(90, 30);
-    EXPECT_EQ(0, output);
-}
-
-/**
-* @brief Test for compute function
-*/
-TEST(PIDTest4, computeFunction3)
-{
-    PIDController testPID(7, 9, 3);
-    testPID.updateParameters(0, 1, 2);
-    double output = testPID.compute(20, 30);
-    EXPECT_EQ(0, output);
+TEST(PIDTest2, computeFunction1) {
+    PIDController testPID(0.5, 0.4, 0.6, 1, 20, -20);
+    ASSERT_NEAR(7.5, testPID.compute(0, 5), 0.5);
 }
