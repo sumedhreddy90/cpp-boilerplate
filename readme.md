@@ -25,7 +25,7 @@ A PID controller is a control loop feedback mechanism that calculates the differ
 mkdir -p ~/workspace
 cd ~/workspace
 git clone -b Group8-PairA https://github.com/sumedhreddy90/cpp-boilerplate.git
-cd cd cpp-boilerplate
+cd cpp-boilerplate
 mkdir build
 cd build
 cmake ..
