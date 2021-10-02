@@ -29,7 +29,7 @@ TEST(PIDTest2, computeFunction1) {
 */
 TEST(PIDTest3, computeFunction2) {
     PIDController testPID(0.8, 0.5, 0.3, 1, 20, -20);
-    ASSERT_NEAR(-19.2, testPID.compute(10, -2), 1.0);
+    ASSERT_NEAR(7.5, testPID.compute(10, -2), 1.0);
 }
 /**
 * @brief Test for Output Value Constraint
