@@ -9,7 +9,7 @@
 
 #include <PID.hpp>
 double PIDController::compute(double currentValue, double setPoint) {
-  double error = currentValue - setPoint;
+  double error = setPoint - currentValue;
   double output = (Kp * error) + (Ki * error * Dt) + (Kd * error / Dt);
   
   if (output > Max) {
