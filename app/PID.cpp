@@ -9,8 +9,9 @@
 
 #include <PID.hpp>
 double PIDController::compute(double currentValue, double setPoint) {
-  // write your compute code here
-  return 23;
+  double error = currentValue - setPoint;
+  double output = (Kp * error) + (Ki * error * Dt) + (Kd * error / Dt);
+  return output;
 }
 /**
  * Updates new values to member variables of the class
