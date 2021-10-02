@@ -11,6 +11,14 @@
 double PIDController::compute(double currentValue, double setPoint) {
   double error = currentValue - setPoint;
   double output = (Kp * error) + (Ki * error * Dt) + (Kd * error / Dt);
+  
+  if (output > Max) {
+    output = Max;
+  }
+  if (output < Min) {
+    output = Min;
+  }
+  
   return output;
 }
 /**
