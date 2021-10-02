@@ -1,6 +1,8 @@
-# C++ Boilerplate
+# C++ PID Controller
 [![Build Status](https://app.travis-ci.com/sumedhreddy90/cpp-boilerplate.svg?branch=Group8-PairA)](https://app.travis-ci.com/sumedhreddy90/cpp-boilerplate.svg?branch=Group8-PairA)
+
 [![Coverage Status](https://coveralls.io/repos/github/sumedhreddy90/cpp-boilerplate/badge.svg?branch=Group8-PairA)](https://coveralls.io/github/sumedhreddy90/cpp-boilerplate?branch=Group8-PairA)
+
 ---
 ## ACME Robotics - PID Controller Design and Implementation for ACME TX9 Mobile Robot
 
