@@ -38,10 +38,16 @@ To run program: ./app/shell-app
 ```
 ## Contributors
 
-Part A:  
+Part 1:  
 Sumedh Reddy Koppula (Driver)   
 Github URL: https://github.com/sumedhreddy90
 
 Pratik Bhujbal (Navigator)  
 Github URL: https://github.com/Prat33k-dev
 
+Part 2:    
+Prannoy Namala (Driver)    
+Github URL: https://github.com/PrannoyNamala    
+
+Aswath Muthuselvam (Navigator)    
+Github URL: https://github.com/aswathselvam
