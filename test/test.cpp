@@ -17,6 +17,7 @@ TEST(PIDTest, gainUpdate) {
     EXPECT_EQ(1, testPID.getValueKi());
     EXPECT_EQ(1, testPID.getValueKd());
 }
+
 /**
 * @brief Test for compute function
 */

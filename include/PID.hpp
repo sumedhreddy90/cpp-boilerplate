@@ -49,7 +49,7 @@ class PIDController {
    * @param setPoint A double which holds the setpoint value
    * @return A double which outputs computed using the gains.
    */
-  double compute(double curentValue, double setPoint);
+  double compute(double currentValue, double setPoint);
 
   /**
    * @brief update kp,ki,kd values for PIDController class
