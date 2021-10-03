@@ -41,6 +41,3 @@ double PIDController::getValueKi() {
 double PIDController::getValueKd() {
   return Kd;
 }
-double PIDController::getValueDt() {
-  return Dt;
-}
