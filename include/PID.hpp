@@ -73,9 +73,4 @@ class PIDController {
    * @return kd value of PIDController
    */
   double getValueKd();
-  /**
-   * @brief get value of Dt
-   * @return Dt value of PIDController
-   */
-  double getValueDt();
 };
