@@ -13,11 +13,20 @@ A PID controller is a control loop feedback mechanism that calculates the differ
 
 ![image](https://user-images.githubusercontent.com/24978535/135656765-ca36cfe9-07fd-474a-9798-93efe46e4845.png)
 
-## Our Implementation Details
+## Our Implementation Details - todo
 - Input parameter to PIDController( kp, ki, kd, dt, max, min).
 - Design Implementaion should be done on PIDController::compute(curentValue, setPoint).
 - Given Gains, sampling time, Max, Min, Integral, errorFeedback to PIDController, compute() method should retun a output which of double type.
-- Compute method should pass the below test to consider design is correct.
+- Compute method should pass the test to consider design is correct.
+
+## Design implementation Discussion overview
+
+We discussed about UML diagrams,possible unit test cases, which can occur during compute function. We have discussed about group B UML diagram, unit test cases. Our navigator forked group B repo with a pull request, vice versa. Upon succesfull build, unit testing and covering all cases, we sent a merge request and they have agreed to merge it. Similarly, group B Nagivgator forked our repo, passed the build with coverage, Hence,we accepted the Merge.
+
+## Our Repo Links
+
+Group A: https://github.com/sumedhreddy90/cpp-boilerplate/tree/Group8-PairA
+Group B: https://github.com/aswathselvam/TestDrivenDev
 ## UML Diagram
 
 ![image](https://user-images.githubusercontent.com/24978535/135701907-ead1b202-83d6-4bdb-909f-685462d6491e.png)
