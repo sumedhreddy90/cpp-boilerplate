@@ -1,0 +1,135 @@
+\hypertarget{class_p_i_d_controller}{}\doxysection{P\+I\+D\+Controller Class Reference}
+\label{class_p_i_d_controller}\index{PIDController@{PIDController}}
+
+
+The class \mbox{\hyperlink{class_p_i_d_controller}{P\+I\+D\+Controller}} has private members Kp, Ki, Kd, and a public member function to compute the new velocity given the input parameters such as target\+Setpoint and actual\+Velocity.  
+
+
+
+
+{\ttfamily \#include $<$P\+I\+D.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_p_i_d_controller_a62e622839512d98a1983cb3e0b6a4fb2}{P\+I\+D\+Controller}} (double kp, double ki, double kd, double dt, double max, double min)
+\item 
+double \mbox{\hyperlink{class_p_i_d_controller_a6523b16b071399cb26c84b80a240f750}{compute}} (double current\+Value, double set\+Point)
+\begin{DoxyCompactList}\small\item\em Computes the output based on the defined gains. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_i_d_controller_a43b4f745b682fdee0394fa944e6926a8}{update\+Parameters}} (double kp, double ki, double kd)
+\begin{DoxyCompactList}\small\item\em update kp,ki,kd values for \mbox{\hyperlink{class_p_i_d_controller}{P\+I\+D\+Controller}} class \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_p_i_d_controller_a09c6ebbc882ac6a9fcacbf0e25f5b8bd}{get\+Value\+Ki}} ()
+\begin{DoxyCompactList}\small\item\em get value of ki \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_p_i_d_controller_a5725271ba9abe32a215e709d49162ad2}{get\+Value\+Kp}} ()
+\begin{DoxyCompactList}\small\item\em get value of kp \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_p_i_d_controller_a13b48a8588c520c3d82d023dd8f4342e}{get\+Value\+Kd}} ()
+\begin{DoxyCompactList}\small\item\em get value of kd \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The class \mbox{\hyperlink{class_p_i_d_controller}{P\+I\+D\+Controller}} has private members Kp, Ki, Kd, and a public member function to compute the new velocity given the input parameters such as target\+Setpoint and actual\+Velocity. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_p_i_d_controller_a62e622839512d98a1983cb3e0b6a4fb2}\label{class_p_i_d_controller_a62e622839512d98a1983cb3e0b6a4fb2}} 
+\index{PIDController@{PIDController}!PIDController@{PIDController}}
+\index{PIDController@{PIDController}!PIDController@{PIDController}}
+\doxysubsubsection{\texorpdfstring{PIDController()}{PIDController()}}
+{\footnotesize\ttfamily P\+I\+D\+Controller\+::\+P\+I\+D\+Controller (\begin{DoxyParamCaption}\item[{double}]{kp,  }\item[{double}]{ki,  }\item[{double}]{kd,  }\item[{double}]{dt,  }\item[{double}]{max,  }\item[{double}]{min }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_p_i_d_controller_a6523b16b071399cb26c84b80a240f750}\label{class_p_i_d_controller_a6523b16b071399cb26c84b80a240f750}} 
+\index{PIDController@{PIDController}!compute@{compute}}
+\index{compute@{compute}!PIDController@{PIDController}}
+\doxysubsubsection{\texorpdfstring{compute()}{compute()}}
+{\footnotesize\ttfamily double P\+I\+D\+Controller\+::compute (\begin{DoxyParamCaption}\item[{double}]{current\+Value,  }\item[{double}]{set\+Point }\end{DoxyParamCaption})}
+
+
+
+Computes the output based on the defined gains. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em curent\+Value} & A double which holds the current process value \\
+\hline
+{\em set\+Point} & A double which holds the setpoint value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A double which outputs computed using the gains. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_p_i_d_controller_a13b48a8588c520c3d82d023dd8f4342e}\label{class_p_i_d_controller_a13b48a8588c520c3d82d023dd8f4342e}} 
+\index{PIDController@{PIDController}!getValueKd@{getValueKd}}
+\index{getValueKd@{getValueKd}!PIDController@{PIDController}}
+\doxysubsubsection{\texorpdfstring{getValueKd()}{getValueKd()}}
+{\footnotesize\ttfamily double P\+I\+D\+Controller\+::get\+Value\+Kd (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get value of kd 
+
+Return value of Kd member variable.
+
+\begin{DoxyReturn}{Returns}
+kd value of \mbox{\hyperlink{class_p_i_d_controller}{P\+I\+D\+Controller}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_p_i_d_controller_a09c6ebbc882ac6a9fcacbf0e25f5b8bd}\label{class_p_i_d_controller_a09c6ebbc882ac6a9fcacbf0e25f5b8bd}} 
+\index{PIDController@{PIDController}!getValueKi@{getValueKi}}
+\index{getValueKi@{getValueKi}!PIDController@{PIDController}}
+\doxysubsubsection{\texorpdfstring{getValueKi()}{getValueKi()}}
+{\footnotesize\ttfamily double P\+I\+D\+Controller\+::get\+Value\+Ki (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get value of ki 
+
+Return value of Ki member variable.
+
+\begin{DoxyReturn}{Returns}
+Ki value of \mbox{\hyperlink{class_p_i_d_controller}{P\+I\+D\+Controller}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_p_i_d_controller_a5725271ba9abe32a215e709d49162ad2}\label{class_p_i_d_controller_a5725271ba9abe32a215e709d49162ad2}} 
+\index{PIDController@{PIDController}!getValueKp@{getValueKp}}
+\index{getValueKp@{getValueKp}!PIDController@{PIDController}}
+\doxysubsubsection{\texorpdfstring{getValueKp()}{getValueKp()}}
+{\footnotesize\ttfamily double P\+I\+D\+Controller\+::get\+Value\+Kp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get value of kp 
+
+Return value of Kp member variable.
+
+\begin{DoxyReturn}{Returns}
+kp value of \mbox{\hyperlink{class_p_i_d_controller}{P\+I\+D\+Controller}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_p_i_d_controller_a43b4f745b682fdee0394fa944e6926a8}\label{class_p_i_d_controller_a43b4f745b682fdee0394fa944e6926a8}} 
+\index{PIDController@{PIDController}!updateParameters@{updateParameters}}
+\index{updateParameters@{updateParameters}!PIDController@{PIDController}}
+\doxysubsubsection{\texorpdfstring{updateParameters()}{updateParameters()}}
+{\footnotesize\ttfamily void P\+I\+D\+Controller\+::update\+Parameters (\begin{DoxyParamCaption}\item[{double}]{kp,  }\item[{double}]{ki,  }\item[{double}]{kd }\end{DoxyParamCaption})}
+
+
+
+update kp,ki,kd values for \mbox{\hyperlink{class_p_i_d_controller}{P\+I\+D\+Controller}} class 
+
+Updates new values to member variables of the class.
+
+
+\begin{DoxyParams}{Parameters}
+{\em kp} & -\/ proportional gain \\
+\hline
+{\em ki} & -\/ integral gain \\
+\hline
+{\em kd} & -\/ differential gain \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_p_i_d_8hpp}{P\+I\+D.\+hpp}}\item 
+\mbox{\hyperlink{_p_i_d_8cpp}{P\+I\+D.\+cpp}}\end{DoxyCompactItemize}
